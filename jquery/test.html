@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="resources/qunit.css">
+</head>
+<body> 
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="resources/jquery-1.10.2-min.js"></script>
+  <script src="consulta-por-cep.js"></script>
+  <script src="resources/qunit.js"></script>
+  <script src="resources/consulta-por-cep-tests.js"></script>
+  
+  <form method="post">
+      <h4>Dados preenchidos após consulta de cep vinda do teste</h4>
+      Cidade: <input type='text' id='seu_id_da_cidade' name="cidade"/><br />
+      Bairro: <input type='text' id='seu_id_do_bairro' name="bairro" /><br />
+      Endereco: <input type='text' id='seu_id_do_logradouro' name="endereco" /><br />
+      UF: <input type='text' id='seu_id_do_uf' name="uf" /><br />
+      CEP: <input type='text' id='seu_id_do_cep' name="cep" /><br />
+  </form>
+</body>
+</html>
